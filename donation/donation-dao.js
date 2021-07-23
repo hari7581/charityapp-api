@@ -1,4 +1,4 @@
-const { HttpClient } = require("./http-client");
+const { HttpClient } = require("../http-client");
 const dotenv = require('dotenv');
 dotenv.config();
 const httpClient = new HttpClient();

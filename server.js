@@ -4,7 +4,7 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const { UserController } = require("./user/user-controller");
 const { RequestController } = require("./request/request-controller");
-const { DonationController } = require("./donation-controller");
+const { DonationController } = require("./donation/donation-controller");
 dotenv.config();
 
 const app = express()
